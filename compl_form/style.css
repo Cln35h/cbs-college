@@ -1,0 +1,48 @@
+
+
+.flecomplt, .flest {
+    width: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    }
+
+table, th, td {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.submit-btn-container {
+    margin-top: 20px; /* Add some space between the form and the submit button */
+}
+
+
+.submit-btn-container input[type="submit"] {
+    width: 150px; /* Set a fixed width for the submit button if desired */
+    margin: 0 auto; /* Center the submit button using margin auto */
+    display: block;
+}
+
+.success-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.success-modal h2 {
+    margin-top: 0;
+}
+
+.success-modal p {
+    margin: 10px 0;
+}
